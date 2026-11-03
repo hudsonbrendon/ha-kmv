@@ -1,0 +1,14 @@
+{
+  "domain": "kmv",
+  "name": "KMV - Km de Vantagens",
+  "codeowners": [
+    "@hudsonbrendon"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/hudsonbrendon/ha-kmv",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/hudsonbrendon/ha-kmv/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

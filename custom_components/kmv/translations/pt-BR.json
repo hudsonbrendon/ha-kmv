@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KMV - Km de Vantagens",
+        "description": "O login por senha é bloqueado pelo reCAPTCHA/antifraude do app. Informe seu CPF e o refresh token capturado de uma sessão logada no app (veja o README).",
+        "data": {
+          "cpf": "CPF",
+          "refresh_token": "Refresh token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Falha ao conectar no KMV.",
+      "invalid_auth": "Refresh token recusado. Capture um novo no app.",
+      "unknown": "Erro inesperado."
+    },
+    "abort": {
+      "already_configured": "Esse CPF já está configurado."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "total_savings": {
+        "name": "Economia total"
+      },
+      "cashback": {
+        "name": "Cashback"
+      },
+      "fuel_cash": {
+        "name": "Combustível acumulado"
+      },
+      "points_balance": {
+        "name": "Saldo de pontos"
+      },
+      "expiring_unavailable": {
+        "name": "Pontos indisponíveis"
+      },
+      "last_transaction": {
+        "name": "Última transação"
+      }
+    },
+    "binary_sensor": {
+      "expiring_points": {
+        "name": "Pontos a expirar"
+      }
+    }
+  }
+}
