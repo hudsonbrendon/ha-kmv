@@ -1,4 +1,17 @@
+<p align="center">
+  <img src="custom_components/kmv/brand/logo.png" alt="KMV - Km de Vantagens" height="128">
+</p>
+
 # KMV – Km de Vantagens (Ipiranga) para Home Assistant
+
+[![Tests](https://github.com/hudsonbrendon/ha-kmv/actions/workflows/tests.yml/badge.svg)](https://github.com/hudsonbrendon/ha-kmv/actions/workflows/tests.yml)
+[![Hassfest](https://github.com/hudsonbrendon/ha-kmv/actions/workflows/hassfest.yml/badge.svg)](https://github.com/hudsonbrendon/ha-kmv/actions/workflows/hassfest.yml)
+[![HACS](https://github.com/hudsonbrendon/ha-kmv/actions/workflows/validate.yml/badge.svg)](https://github.com/hudsonbrendon/ha-kmv/actions/workflows/validate.yml)
+[![Release](https://img.shields.io/github/v/release/hudsonbrendon/ha-kmv?sort=semver)](https://github.com/hudsonbrendon/ha-kmv/releases)
+[![Downloads](https://img.shields.io/github/downloads/hudsonbrendon/ha-kmv/total)](https://github.com/hudsonbrendon/ha-kmv/releases)
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2025.6.0%2B-18BCF2?logo=homeassistant&logoColor=white)](https://www.home-assistant.io/)
+[![License](https://img.shields.io/github/license/hudsonbrendon/ha-kmv)](LICENSE)
 
 Integração **não oficial** para o programa de fidelidade **Km de Vantagens / Abastece Aí**
 da Ipiranga, feita por engenharia reversa do app `com.gigigo.ipirangaconectcar`
@@ -29,6 +42,9 @@ combustível, saldo de pontos (Km), pontos a expirar e a última transação.
   - `/private/api/users/me` → nome do titular
 
 ## Instalação
+
+[![Abrir no HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=hudsonbrendon&repository=ha-kmv&category=integration)
+[![Adicionar integração](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=kmv)
 
 1. Copie `custom_components/kmv` para o seu `config/custom_components/` (ou via HACS, repositório customizado).
 2. Reinicie o Home Assistant.

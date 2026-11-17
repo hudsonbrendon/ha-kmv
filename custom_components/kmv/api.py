@@ -29,7 +29,6 @@ from .const import (
     BUSINESS_CHANNEL,
     CLIENT_ID,
     CLIENT_SECRET,
-    LOGGER,
 )
 
 _TIMEOUT = 60  # app usa apiTimeout 60000ms

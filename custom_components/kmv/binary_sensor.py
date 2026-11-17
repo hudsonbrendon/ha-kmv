@@ -31,7 +31,7 @@ class KmvExpiringPointsBinarySensor(KmvEntity, BinarySensorEntity):
 
     _attr_translation_key = "expiring_points"
 
-    def __init__(self, coordinator) -> None:  # noqa: ANN001
+    def __init__(self, coordinator) -> None:
         """Inicializa o binary sensor."""
         super().__init__(coordinator)
         self._attr_unique_id = f"{coordinator.config_entry.entry_id}_expiring_points"
